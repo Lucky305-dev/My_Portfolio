@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    /* transform: scale(4); */
+    margin-bottom: 4em;
+}
+
+.error-main p {
+    font-family: monospace;
+    margin-bottom: 2em;
+}
+
+.error-main a {
+    font-size: 1.5rem;
+}
+
+.error-main a:hover {
+    text-decoration: underline;
+}

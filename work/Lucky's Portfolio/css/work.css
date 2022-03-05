@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	overflow-x: hidden;
+}
+
+.header-section{
+	background: #171717;
+}
+.header-section .container{
+	color: #0ff;
+	padding-bottom: 0.1em;
+}
+.header-section .container h1{
+	border: none;
+	font-size: 2em;
+	font-family: Lexend_deca;
+}
+
+.container{
+	padding: 2em 1em;
+	max-width: 900px;
+	margin: auto;
+}
+
+.youtube-container h1, .container h1{
+	font-family: Livvic;
+	margin: 1.2em 0;
+	border-bottom: 1px solid #000;
+	width: 100%;
+	padding: 0.3em 0 0.6em;
+}
+
+.vidoes-container, .projects-container, .websites-container{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1.8em;
+}
+.video-box, .projects-box, .websites-box{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100px;
+	background: #eee;
+	box-shadow: 5px 5px 30px 5px gray;
+}
+
+
+
+
+@media only screen and (min-width: 700px){
+	.vidoes-container{
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (min-width: 700px){
+	.vidoes-container{
+		grid-gap: 2.5em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------  Global -------------------*/
+.btn{
+	background: linear-gradient(20deg, #0fc 0%, #009688 100%);
+	padding: 0.9em 2em;
+	border: none;
+	outline: none;
+	color: #fff;
+	border-radius: 4px;
+
+}
+.btn:hover{
+	transform: scale(1.05);
+}
+.btn:active{
+	transform: scale(0.98);
+}
+
+a{
+	text-decoration: none;
+}
+
+footer{
+	padding: 1.3em 0;
+	background: #033535;
+	text-align: center;
+}
+
+
+
+
+

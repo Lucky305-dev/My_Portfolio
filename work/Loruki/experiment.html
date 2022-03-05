@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            /* box-sizing: border-box; */
+            padding: 0;
+            margin: 0;
+        }
+        .loading-section {
+            height: 100vh;
+            width: 100%;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .loading-section p {
+            font-family: monospace;
+            animation: blink 1.1s ease-in-out alternate infinite;
+        }
+        .box {
+            width: 200px;
+            height: 100px;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;           
+        }
+        .bars {
+            background-color: #fff;
+            height: 0%;
+            width: 20%;
+        }
+        .bars {
+            animation: uplift .8s ease-out alternate infinite;
+        }
+        #num-2 {
+            animation-delay: 0.4s;
+        }
+        #num-3 {
+            animation-delay: 0.6s;
+        }
+
+        @keyframes uplift {
+            0% {
+                height: 0%;
+            }
+            100% {
+                height: 100%;
+            }
+        }
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            /* 70% {
+                opacity: 0;
+            } */
+            100% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="loading-section">
+        <div class="box">
+            <div class="bars" id="num-1"></div>
+            <div class="bars" id="num-2"></div>
+            <div class="bars" id="num-3"></div>
+            <!-- <div class="bars" id="num-4"></div> -->
+        </div>
+        <p>Loading please wait...</p>
+    </section>
+    
+
+
+    <script>
+        // let word = 'Hello';
+
+        // function reverseStr(str) {
+
+        //     let x = [];
+        //     let reversedStr = '';
+
+        //     for (let i = 0; i < str.length; i++) {
+        //         console.log(str[i]);
+        //         x.unshift(str[i]);
+        //     }
+
+        //     for (let i = 0; i < x.length; i++) {
+        //         reversedStr += x[i];
+        //         console.log(reversedStr);
+        //     }
+
+        //     console.log(x);
+        //     console.log(reversedStr);
+        // }
+
+        // reverseStr(word);
+
+        
+    </script>
+
+
+</body>
+</html>

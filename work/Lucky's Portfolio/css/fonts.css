@@ -1,0 +1,48 @@
+/*-- Font family: Abel; ------*/
+
+@font-face {
+    font-family: Abel;
+    src: url("../Fonts/Abel/Abel-Regular.ttf");
+}
+
+/*-- Font family: Anton; ------*/
+
+@font-face {
+    font-family: Anton;
+    src: url("../Fonts/Anton/Anton-Regular.ttf");
+}
+
+/*-- Font family: Josefin_Sans; ------*/
+
+@font-face {
+    font-family: Josefin_Sans;
+    src: url("../Fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf");
+}
+
+/*-- Font family: Kenia; ---*/
+
+@font-face {
+    font-family: Kenia;
+    src: url("../Fonts/Kenia/Kenia-Regular.ttf");
+}
+
+/*-- Font family: Lexend_Deca; ---*/
+
+@font-face {
+    font-family: Lexend_Deca;
+    src: url("../Fonts/Lexend_Deca/LexendDeca-Regular.ttf");
+}
+
+/*-- Font family: Livvic; ---*/
+
+@font-face {
+    font-family: Livvic;
+    src: url("../Fonts/Livvic/Livvic-Regular.ttf");
+}
+
+/*-- Font family: Lobster; ---*/
+
+@font-face {
+    font-family: Lobster;
+    src: url("../Fonts/Lobster/Lobster-Regular.ttf");
+}

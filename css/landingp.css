@@ -1,0 +1,298 @@
+a:active {
+    transform: scale(0.9);
+}
+
+/* Showcase Section */
+.showcase {
+    position: relative;
+    height: 101vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-content: center;
+}
+
+.useless-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 7px;
+    height: 100%;
+    background-color: #0ff;
+}
+
+.showcase-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.showcase-info {
+    background: rgba(0, 0, 0, 0);
+    z-index: 99;
+}
+
+.showcase h1 {
+    font-size: 2.8rem;
+    font-family: "Marcellus", sans-serif;
+    font-weight: 100;
+    line-height: 1.2em;
+    margin-bottom: 1.4em;
+}
+
+.showcase p {
+    line-height: 1.6em;
+    font-weight: 100;
+    color: #ccc;
+}
+
+/* See work btn */
+.work-btn {
+    margin-top: 2em;
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    padding: 0.6em 0;
+    color: #fff;
+    font-style: italic;
+}
+
+.work-btn span {
+    margin-right: 0.5em;
+}
+
+.work-btn a {
+    color: #fff !important;
+}
+
+.img-box {
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.img-box img {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* !************************************! */
+
+/* ******************* Most recent projects **************** */
+/* .section-head {
+    margin: 2em 0;
+    font-size: 3rem;
+} */
+/* 
+.project-wrap {
+    position: relative;
+    width: 95%;
+    max-width: 700px;
+    margin: auto;
+    background: #d1d1d1;
+    padding: 1.2em 1.2em 4em;
+} */
+
+/* .project-wrap a {
+    color: #fff;
+}
+.lower-block {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    //max-height: 50px;
+} */
+
+/* .lower-block span {
+    margin-right: 0.3rem;
+} */
+
+.recent-project .project-link {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #ccc;
+    /* box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6); */
+}
+
+.black-btn span {
+    margin-right: 0.4em;
+}
+
+/* !**************************************! */
+
+/* !***************************************! */
+
+/* More Projects Section */
+.more-projects {
+    background: linear-gradient(
+        166deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 33, 32, 1) 65%,
+        rgba(0, 27, 32, 1) 100%
+    );
+    color: #fff;
+}
+.more-projects h4 {
+    font-weight: bolder;
+    margin-bottom: 4em;
+}
+
+.project {
+    margin: 2em 0;
+}
+
+.project-name {
+    color: #fff;
+    margin: 1.2em 0;
+    padding: 0.4em 0;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+/* !***************************************! */
+
+/* My Services Section */
+
+.my-services {
+    background-color: #000;
+    color: #fff;
+}
+
+.services-card {
+    width: 60%;
+    background-color: #171717;
+    min-height: 400px;
+    padding: 2em 1.5em;
+    margin: 5em auto;
+    box-shadow: 1px 1px 3px rgba(40, 40, 40, 100%);
+}
+
+.services-card i {
+    background-color: #2e2e2e;
+    padding: 1em;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin: 1.2em 0;
+}
+
+.services-card p {
+    color: #a2a2a2;
+    margin: 2em 0;
+}
+
+/* !***************************************! */
+
+/* My skills */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    text-align: center;
+    margin: 6em 0;
+}
+
+.skill {
+    padding: 1.4em;
+}
+
+.rate-circle {
+    padding: 2.2em;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 1em 0;
+}
+
+.entry-level {
+    border: 10px solid #eee;
+    border-left: 10px solid red;
+}
+.intermediate {
+    border: 10px solid orange;
+    border-bottom: 10px solid #eee;
+    border-right: 10px solid #eee;
+}
+.proficient {
+    border: 10px solid yellowgreen;
+    border-bottom: 10px solid #eee;
+}
+.expert {
+    border: 10px solid #00ff00;
+}
+
+.skills i {
+    font-size: 4rem;
+}
+
+.skill img {
+    width: 120px;
+    height: 120px;
+}
+.skills h4 {
+    font-size: 1.4rem;
+}
+.skill-level {
+    margin: 1em 0;
+}
+
+/* !***************************************! */
+
+/*  */
+
+/* !***************************************! */
+
+@media (min-width: 650px) {
+    .services {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+    }
+    .services-card {
+        width: 30%;
+        margin: 5em 0;
+    }
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 750px) {
+    .showcase-info {
+        width: 60%;
+    }
+    .useless-bar {
+        width: 14px;
+    }
+
+    .the-projects {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project {
+        width: 30%;
+    }
+
+    .project img {
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 900px) {
+    .skills {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
